@@ -12,7 +12,7 @@ a los jugadores a las lobbys.
  ## Cómo usar
  
 ### Comando
-Este plugin te da la facilidad de tener un comado spigot personalizado, el cual puede ser ejecutado con cualquier plugin externo,
+Este plugin te da la facilidad de tener un comado spigot personalizado, el cual es ejecutador por el jugador,
 para configurarlo, debes editar la config.yml del mismo plugin
 
 ```yml
