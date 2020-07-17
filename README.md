@@ -40,7 +40,7 @@ puedes implementar este Addon como librería.
 ### Ejemplo
 ```java
 @EventHandler
-public void BedInteract(PlayerInteractEvent) {
+public void BedInteract(PlayerInteractEvent e) {
    if(e.getItemInHand().getType() == Material.BED) {
     LobbyAddon.getInstance().LobbyTP(e.getPlayer());
    }
