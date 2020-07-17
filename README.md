@@ -10,9 +10,11 @@ a los jugadores a las lobbys.
 >  ya sea haciendo click a un texto, haciendo click a una cama o lo que se te ocurra!
  
  ## Cómo usar
- 
- ´´´bash
- 
- cd github
- 
- ´´´
+```java
+
+public static void(){
+
+}
+
+
+```
