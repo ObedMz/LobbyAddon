@@ -50,7 +50,7 @@ public void BedInteract(PlayerInteractEvent e) {
 ```
 
 ### Nota:
-Recuerda agregar el Addon como dependencia.
+Recuerda agregar el Addon como dependencia en el plugin.yml de tu plugin.
 ```yml
 depend: [LobbyAddon]
 
