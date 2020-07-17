@@ -3,7 +3,7 @@
 
  LobbyAddon es un plugin spigot que mediante el sistema de [Lobby System](https://github.com/ObedMz/LobbySystem) permite
 ejecutar un comando personalizable desde un servidor spigot o integrando la API para poder comunicarse con el BungeeCord y envíar
-a los jugadores a las lobbys.
+al jugador que ejecutó el comando a una lobby vía network.
 
 ## Usos
  Este Addon fue creado con el proposito de que los jugadores puedan ir a las lobbys de la network de distinta manera,
@@ -12,7 +12,7 @@ a los jugadores a las lobbys.
  ## Cómo usar
  
 ### Comando
-Este plugin te da la facilidad de tener un comado spigot personalizado, el cual es ejecutador por el jugador,
+Este plugin te da la facilidad de tener un comado spigot personalizado, el cual es ejecutado por el jugador.
 para configurarlo, debes editar la config.yml del mismo plugin
 
 ```yml
@@ -50,7 +50,8 @@ public void BedInteract(PlayerInteractEvent e) {
 ```
 
 ### Nota:
-Recuerda agregar el Addon como dependencia en el plugin.yml de tu plugin.
+Debes tener instalado  [Lobby System](https://github.com/ObedMz/LobbySystem) en tu server BungeeCord.
+Recuerda agregar el Addon como dependencia en el archivo plugin.yml de tu plugin.
 ```yml
 depend: [LobbyAddon]
 
