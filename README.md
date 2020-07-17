@@ -29,7 +29,7 @@ config:
 
 ```
 Una vez hecho puedes iniciar tu servidor de spigot y el comando se registrará automaticamente y al ser ejecutado por algún jugador
-se podrá transportar a alguna lobby que tengas en la network.
+desde el server spigot se podrá transportar a alguna lobby que tengas en la network.
 
 
 ### API
