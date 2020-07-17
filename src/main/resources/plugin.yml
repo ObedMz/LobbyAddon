@@ -1,0 +1,7 @@
+name: LobbyAddon
+version: ${project.version}
+main: obed.me.lobbyaddon.LobbyAddon
+api-version: 1.16.1
+authors: [obemz]
+description: Spigot Addon for Lobby System
+website: obedmz.github.io

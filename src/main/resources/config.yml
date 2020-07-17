@@ -1,0 +1,10 @@
+config:
+  lobby:
+    ##Habilitar el uso del comando
+    enable: true
+    ##Player command
+    command: "vlobby"
+    permission: "lobby.use"
+    message:
+      sucess: ""
+      denied: "&cNo tienes permisos para usar esto."
