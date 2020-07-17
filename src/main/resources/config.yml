@@ -4,7 +4,7 @@ config:
     enable: true
     ##Player command
     command: "vlobby"
-    permission: "lobby.use"
+    permission: "vlobby.use"
     message:
       sucess: ""
       denied: "&cNo tienes permisos para usar esto."
