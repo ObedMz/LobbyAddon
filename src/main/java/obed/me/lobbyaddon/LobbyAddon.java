@@ -44,9 +44,9 @@ public final class LobbyAddon extends JavaPlugin implements CommandExecutor {
                 Bukkit.getConsoleSender().sendMessage(ChatColor.RED + "El comando está vacio, revisa la config.yml.");
                 Bukkit.shutdown();
             }
-            PluginCommand pluginCommand = constructor.newInstance(config.getConfig().getString(command), this);
+            PluginCommand pluginCommand = constructor.newInstance(command, this);
             pluginCommand.setDescription("Spigot command for lobby");
-            pluginCommand.setPermission(config.getConfig().getString("config.lobby.permission"));
+            pluginCommand.setPermission(permission);
             Field field = SimplePluginManager.class.getDeclaredField("commandMap");
             field.setAccessible(true);
             CommandMap commandMap = (CommandMap) field.get((SimplePluginManager) getServer().getPluginManager());
