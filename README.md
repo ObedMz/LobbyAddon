@@ -50,8 +50,8 @@ public void BedInteract(PlayerInteractEvent e) {
 ```
 
 ### Nota:
-Debes tener instalado  [Lobby System](https://github.com/ObedMz/LobbySystem) en tu server BungeeCord.
-Recuerda agregar el Addon como dependencia en el archivo plugin.yml de tu plugin.
+- Debes tener instalado  [Lobby System](https://github.com/ObedMz/LobbySystem) en tu server BungeeCord.
+- Recuerda agregar el Addon como dependencia en el archivo plugin.yml de tu plugin spigot.
 ```yml
 depend: [LobbyAddon]
 
